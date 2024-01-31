@@ -1,0 +1,73 @@
+/* gyhg gjhjn */
+.header {
+    background-color: cyan;
+    max-width: 600px;
+    flex-wrap: wrap;
+    grid-template-columns: max-content;
+    display: flex;
+    color: blue;
+    font-size: 18px;
+}
+
+.bio {
+    background-color: green;
+    font-style: italic;
+    font-weight: 100;
+    width: 600px;
+}
+ 
+span {
+    color: blue;
+}
+
+h1 {
+    color: red;
+}
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    font-weight:normal;
+    background-color: whitesmoke;
+    margin: 20px;
+    text-align: center;
+    font-size: 18px;
+    color: blueviolet;
+    counter-reset: 50%;
+    
+
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 2px;
+    border: 20 20 20 20;
+}
+
+#strong {
+    font-weight: bold;
+}
+
+form {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+
+    border: 30%;
+    width: 200px;
+}
+
+.stay {
+    width: 600px;
+}
+input {
+    width: 300px;
+    height: 25px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 400px;
+    border-style: double;
+}
